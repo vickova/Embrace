@@ -27,6 +27,9 @@ nav ul{
 nav ul li{
     list-style: none;
 }
+.menu{
+    display: none;
+}
 nav button{
     background-color: #3461FF;
     color: #fff;
@@ -185,6 +188,9 @@ footer{
     }
     nav{
         justify-content: flex-end;
+    }
+    .menu{
+        display: block;
     }
     nav ul{
         display: none;
